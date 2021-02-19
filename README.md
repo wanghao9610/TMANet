@@ -37,6 +37,7 @@ particularly 80.3% mIoU on Cityscapes and 76.5% mIoU on CamVid with ResNet-50.
   * Please download the pretrained [ResNet-50](https://drive.google.com/drive/folders/1IRkBsvJpZ1R1cS5La-7On03VoJErgvGX) model, and put it on ./init_models .
   * Run the following command(on Cityscapes):
   ```shell
+  mkdir init_models
   sh train.sh configs/video/cityscapes/tmanet_r50-d8_769x769_80k_cityscapes_video.py
   ```
   Note: the above evaluation and training shell commands execute on Cityscapes, if you want to execute evaluation or 
