@@ -55,4 +55,4 @@ particularly 80.3% mIoU on Cityscapes and 76.5% mIoU on CamVid with ResNet-50.
   }
   ```
 ## Acknowledgement
-Thanks [mmsegmentation](https://github.com/open-mmlab/mmsegmentation) contributes to the community!
+Thanks [mmsegmentation](https://github.com/open-mmlab/mmsegmentation) contribution to the community!
