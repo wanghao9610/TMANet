@@ -26,7 +26,7 @@ particularly 80.3% mIoU on Cityscapes and 76.5% mIoU on CamVid with ResNet-50.
   * For Camvid dataset, we need to extract frames from downloaded
     videos, please view the code on ./tools/convert_datasets/.
   * Put the converted datasets on ./data/camvid and ./data/cityscapes path.
-* Evaluation for TMANet
+* Evaluation
   * Download the trained models for [Cityscapes](https://drive.google.com/drive/folders/16EMm46zRIKkGC-wIse4In5lV6zUZCIQB) and [Camvid](link2). And put them on ./work_dirs/{config_file}  
   * Run the following command(on Cityscapes):
   ```shell
