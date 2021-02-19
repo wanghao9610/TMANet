@@ -43,7 +43,7 @@ particularly 80.3% mIoU on Cityscapes and 76.5% mIoU on CamVid with ResNet-50.
     │   │   │   │   ├── yyy{seg_map_suffix}               │   │   │   │   ├── yyy{seg_map_suffix}
     │   │   │   │   ├── zzz{seg_map_suffix}               │   │   │   │   ├── zzz{seg_map_suffix}
     │   │   │   ├── val                                   │   │   │   ├── val
-    │   │   ├── leftImg8bit_sequence                      │   │   │   ├── image_sequence
+    │   │   ├── leftImg8bit_sequence                      │   │   ├── image_sequence
     │   │   │   ├── train                                 │   │   │   ├── train
     │   │   │   │   ├── xxx{sequence_suffix}              │   │   │   │   ├── xxx{sequence_suffix}
     │   │   │   │   ├── yyy{sequence_suffix}              │   │   │   │   ├── yyy{sequence_suffix}
