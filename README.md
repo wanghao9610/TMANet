@@ -22,7 +22,7 @@ particularly 80.3% mIoU on Cityscapes and 76.5% mIoU on CamVid with ResNet-50.
   pip install -e .
   ```
 * Prepare the datasets
-  * Download the [Cityscapes](https://www.cityscapes-dataset.com/) dataset and [Camvid](http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/). 
+  * Download [Cityscapes](https://www.cityscapes-dataset.com/) dataset and [Camvid](http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/) dataset. 
   * For Camvid dataset, we need to extract frames from downloaded
     videos, please view the code on ./tools/convert_datasets/.
   * Put the converted datasets on ./data/camvid and ./data/cityscapes path.
