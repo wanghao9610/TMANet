@@ -1,5 +1,4 @@
 # Temporal Memory Attention for Video Semantic Segmentation, [arxiv](https://arxiv.org/abs/2102.08643)
-Hao Wang, Weining Wang, Jing Liu
 
 ## Introduction
 We propose a Temporal Memory Attention Network (TMANet) to adaptively integrate the long-range temporal relations over 
