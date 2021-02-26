@@ -1,5 +1,8 @@
 # Temporal Memory Attention for Video Semantic Segmentation, [arxiv](https://arxiv.org/abs/2102.08643)
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/temporal-memory-attention-for-video-semantic/video-semantic-segmentation-on-camvid)](https://paperswithcode.com/sota/video-semantic-segmentation-on-camvid?p=temporal-memory-attention-for-video-semantic)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/temporal-memory-attention-for-video-semantic/video-semantic-segmentation-on-cityscapes-val)](https://paperswithcode.com/sota/video-semantic-segmentation-on-cityscapes-val?p=temporal-memory-attention-for-video-semantic)
+
 ## Introduction
 We propose a Temporal Memory Attention Network (TMANet) to adaptively integrate the long-range temporal relations over 
 the video sequence based on the self-attention mechanism without exhaustive optical flow prediction.
