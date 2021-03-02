@@ -54,7 +54,7 @@ particularly 80.3% mIoU on Cityscapes and 76.5% mIoU on CamVid with ResNet-50.
     ```
 
 * Evaluation
-  * Download the trained models for [Cityscapes](https://drive.google.com/drive/folders/16EMm46zRIKkGC-wIse4In5lV6zUZCIQB) and [Camvid](link2). And put them on ./work_dirs/{config_file}  
+  * Download the trained models for [Cityscapes](https://drive.google.com/drive/folders/16EMm46zRIKkGC-wIse4In5lV6zUZCIQB) and [Camvid](https://drive.google.com/drive/folders/1wiKyMZItme9cb1Kfidtm4ziDT7TdrQ22?usp=sharing). And put them on ./work_dirs/{config_file}  
   * Run the following command(on Cityscapes):
   ```shell
   mkdir -p work_dirs/tmanet_r50-d8_769x769_80k_cityscapes_video
