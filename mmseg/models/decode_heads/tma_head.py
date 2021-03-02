@@ -57,7 +57,7 @@ class MemoryModule(nn.Module):
 
 @HEADS.register_module()
 class TMAHead(BaseDecodeHead):
-    """Memory decoder for video semantic segmentation."""
+    """TMAHead decoder for video semantic segmentation."""
 
     def __init__(self, sequence_num, key_channels, value_channels, **kwargs):
         super(TMAHead, self).__init__(**kwargs)
