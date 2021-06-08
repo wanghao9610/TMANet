@@ -21,7 +21,7 @@ particularly 80.3% mIoU on Cityscapes and 76.5% mIoU on CamVid with ResNet-50. (
 * Install mmseg
   * Please refer to [mmsegmentation](https://github.com/open-mmlab/mmsegmentation) to get installation guide. 
   * This repository is based on mmseg-0.7.0 and pytorch 1.6.0.
-* Clone the repository.
+* Clone the repository
   ```shell
   git clone https://github.com/wanghao9610/TMANet.git
   cd TMANet
