@@ -2,7 +2,7 @@ import os
 import os.path as osp
 splits = ['train', 'val', 'test']
 
-# cityscapes
+# count and check the frames of cityscapes.
 citys_path = '/data/datasets/video_ss/cityscapes/leftImg8bit_sequence'
 for split in splits:
     sequence_path = osp.join(citys_path, split)
@@ -19,5 +19,4 @@ for split in splits:
     for citys, frames_list in citys_frames_list.items():
         print('{:<20s}: {:<10d}'.format(citys, len(frames_list)))
         total_frames += len(frames_list)
-    print('{:<20s}: {:<10d}'.format(f'{split}_total', total_frames))
-    print('\n')
+    print('{:<20s}: {:<10d}'.format(f'{split}_total\n', total_frames))

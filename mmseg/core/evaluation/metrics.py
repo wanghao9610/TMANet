@@ -159,7 +159,7 @@ def eval_metrics(results,
                                                      num_classes,
                                                      ignore_index=ignore_index)
     all_acc = total_area_intersect.sum() / total_area_label.sum()
-    acc = total_area_intersect / total_area_label
+    acc = total_area_intersect / total_area_label   # TP / (TP + FN)
     ret_metrics = [all_acc, acc]
     for metric in metrics:
         if metric == 'mIoU':
