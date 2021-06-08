@@ -46,7 +46,7 @@ particularly 80.3% mIoU on Cityscapes and 76.5% mIoU on CamVid with ResNet-50. (
       ```
     * Generate image_sequence dir frame by frame from the raw videos. Reference the following shell command:
       ```shell
-      cd TMAnet
+      cd TMANet
       python tools/convert_datasets/camvid_video_process.py
       ```
   * For Cityscapes dataset, we need to request the download link of 'leftImg8bit_sequence_trainvaltest.zip' from 
