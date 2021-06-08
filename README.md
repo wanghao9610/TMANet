@@ -33,7 +33,8 @@ particularly 80.3% mIoU on Cityscapes and 76.5% mIoU on CamVid with ResNet-50. (
     videos according to the following steps:
     * Download the raw video from [here](https://drive.google.com/drive/folders/19eAfQ7Of4LUe4C4Z-S60EcTFC8BCVTr0?usp=sharing), in which I provide a google drive link to download.
     * Put the downloaded raw video(e.g. 0016E5.MXF, 0006R0.MXF, 0005VD.MXF, 01TP_extract.avi) to ./data/camvid/raw .
-    * Download the extracted images and labels from [here](https://drive.google.com/file/d/1FcVdteDSx0iJfQYX2bxov0w_j-6J7plz/view?usp=sharing), untar the tar.gz file to ./data/camvid , 
+    * Download the extracted images and labels from [here](https://drive.google.com/file/d/1FcVdteDSx0iJfQYX2bxov0w_j-6J7plz/view?usp=sharing) 
+      and split.txt file from [here](https://drive.google.com/drive/folders/1a9I09fnI9s1mGBFRB7bW5dyzhs5MkTZ7?usp=sharing), untar the tar.gz file to ./data/camvid , 
       and we will get two subdirs "./data/camvid/images" (stores the images with annotations), and "./data/camvid/labels" (stores the ground 
       truth for semantic segmentation). Reference the following shell command: 
       ```shell
