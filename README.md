@@ -55,26 +55,26 @@ particularly 80.3% mIoU on Cityscapes and 76.5% mIoU on CamVid with ResNet-50. (
     
     File structure of video semantic segmentation dataset is as followed.
     ```none
-    ├── data                                              ├── data                  
-    │   ├── cityscapes                                    │   ├── camvid
-    │   │   ├── gtFine                                    │   │   ├── images
-    │   │   │   ├── train                                 │   │   │   ├── train
-    │   │   │   │   ├── xxx{img_suffix}                   │   │   │   │   ├── xxx{img_suffix}
-    │   │   │   │   ├── yyy{img_suffix}                   │   │   │   │   ├── yyy{img_suffix}
-    │   │   │   │   ├── zzz{img_suffix}                   │   │   │   │   ├── zzz{img_suffix}
-    │   │   │   ├── val                                   │   │   │   ├── val
-    │   │   ├── leftImg8bit                               │   │   ├── annotations
-    │   │   │   ├── train                                 │   │   │   ├── train
-    │   │   │   │   ├── xxx{seg_map_suffix}               │   │   │   │   ├── xxx{seg_map_suffix}
-    │   │   │   │   ├── yyy{seg_map_suffix}               │   │   │   │   ├── yyy{seg_map_suffix}
-    │   │   │   │   ├── zzz{seg_map_suffix}               │   │   │   │   ├── zzz{seg_map_suffix}
-    │   │   │   ├── val                                   │   │   │   ├── val
-    │   │   ├── leftImg8bit_sequence                      │   │   ├── image_sequence
-    │   │   │   ├── train                                 │   │   │   ├── train
-    │   │   │   │   ├── xxx{sequence_suffix}              │   │   │   │   ├── xxx{sequence_suffix}
-    │   │   │   │   ├── yyy{sequence_suffix}              │   │   │   │   ├── yyy{sequence_suffix}
-    │   │   │   │   ├── zzz{sequence_suffix}              │   │   │   │   ├── zzz{sequence_suffix}
-    │   │   │   ├── val                                   │   │   │   ├── val
+    ├── data                                              ├── data                              
+    │   ├── cityscapes                                    │   ├── camvid                        
+    │   │   ├── gtFine                                    │   │   ├── images                    
+    │   │   │   ├── train                                 │   │   │   ├── xxx{img_suffix}       
+    │   │   │   │   ├── xxx{img_suffix}                   │   │   │   ├── yyy{img_suffix}       
+    │   │   │   │   ├── yyy{img_suffix}                   │   │   │   ├── zzz{img_suffix}       
+    │   │   │   │   ├── zzz{img_suffix}                   │   │   ├── annotations               
+    │   │   │   ├── val                                   │   │   │   ├── train.txt             
+    │   │   ├── leftImg8bit                               │   │   │   ├── val.txt               
+    │   │   │   ├── train                                 │   │   │   ├── test.txt              
+    │   │   │   │   ├── xxx{seg_map_suffix}               │   │   ├── labels                    
+    │   │   │   │   ├── yyy{seg_map_suffix}               │   │   │   ├── xxx{seg_map_suffix}   
+    │   │   │   │   ├── zzz{seg_map_suffix}               │   │   │   ├── yyy{seg_map_suffix}   
+    │   │   │   ├── val                                   │   │   │   ├── zzz{seg_map_suffix}   
+    │   │   ├── leftImg8bit_sequence                      │   │   ├── image_sequence            
+    │   │   │   ├── train                                 │   │   │   ├── xxx{sequence_suffix}  
+    │   │   │   │   ├── xxx{sequence_suffix}              │   │   │   ├── yyy{sequence_suffix}  
+    │   │   │   │   ├── yyy{sequence_suffix}              │   │   │   ├── zzz{sequence_suffix}  
+    │   │   │   │   ├── zzz{sequence_suffix}              
+    │   │   │   ├── val                                   
     ```
 
 * Evaluation
