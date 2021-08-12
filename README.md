@@ -9,6 +9,8 @@ the video sequence based on the self-attention mechanism without exhaustive opti
 Our method achieves new state-of-the-art performances on two challenging video semantic segmentation datasets, 
 particularly 80.3% mIoU on Cityscapes and 76.5% mIoU on CamVid with ResNet-50. (Accepted by ICIP2021)
 
+If this code base if hopeful for you, please consider give me a star ⭐ 😊
+
 ![image](images/overview.jpg)
 
 ## Updates
