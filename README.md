@@ -1,4 +1,4 @@
-# Temporal Memory Attention for Video Semantic Segmentation, [arxiv](https://arxiv.org/abs/2102.08643)
+# Temporal Memory Attention for Video Semantic Segmentation, [paper](https://arxiv.org/abs/2102.08643)
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/temporal-memory-attention-for-video-semantic/video-semantic-segmentation-on-camvid)](https://paperswithcode.com/sota/video-semantic-segmentation-on-camvid?p=temporal-memory-attention-for-video-semantic)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/temporal-memory-attention-for-video-semantic/video-semantic-segmentation-on-cityscapes-val)](https://paperswithcode.com/sota/video-semantic-segmentation-on-cityscapes-val?p=temporal-memory-attention-for-video-semantic)
@@ -96,13 +96,13 @@ If this codebase is helpful for you, please consider give me a star ⭐ 😊.
 ## Citation
   If you find TMANet is useful in your research, please consider citing:
   ```shell
-  @misc{wang2021temporal,
-      title={Temporal Memory Attention for Video Semantic Segmentation}, 
-      author={Hao Wang and Weining Wang and Jing Liu},
-      year={2021},
-      eprint={2102.08643},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+  @inproceedings{wang2021temporal,
+  title={Temporal memory attention for video semantic segmentation},
+  author={Wang, Hao and Wang, Weining and Liu, Jing},
+  booktitle={2021 IEEE International Conference on Image Processing (ICIP)},
+  pages={2254--2258},
+  year={2021},
+  organization={IEEE}
   }
   ```
 ## Acknowledgement
